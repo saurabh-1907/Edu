@@ -14,9 +14,9 @@
           "raw": "{\n  \"name\": \"Example School\",\n  \"address\": \"Example Road\",\n  \"latitude\": 28.7041,\n  \"longitude\": 77.1025\n}"
         },
         "url": {
-          "raw": "https://<RENDER-URL>/api/addSchool",
+          "raw": "https://edu-m3yi.onrender.com/api/addSchool",
           "protocol": "https",
-          "host": ["<RENDER-URL>"],
+          "host": ["edu-m3yi.onrender.com"],
           "path": ["api", "addSchool"]
         }
       }
@@ -26,9 +26,9 @@
       "request": {
         "method": "GET",
         "url": {
-          "raw": "https://<RENDER-URL>/api/listSchools?latitude=28.7041&longitude=77.1025",
+          "raw": "https://edu-m3yi.onrender.com/api/listSchools?latitude=28.7041&longitude=77.1025",
           "protocol": "https",
-          "host": ["<RENDER-URL>"],
+          "host": ["edu-m3yi.onrender.com"],
           "path": ["api", "listSchools"],
           "query": [
             { "key": "latitude", "value": "28.7041" },
