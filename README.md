@@ -9,11 +9,11 @@ Please note that on the forst request it may take  sec to a minute because of fr
 ```bash 
 https://edu-m3yi.onrender.com/api 
 ```
-## 📌 Endpoints
+ 📌 Endpoints
 
-### 1️⃣ Add School
-**Method:** `POST`  
-**URL:** `/addSchool`  
+1️⃣ Add School
+Method: `POST`  
+URL: `/addSchool`  
 
 ```bash 
 https://edu-m3yi.onrender.com/api/addSchool
@@ -144,4 +144,5 @@ Server will run on:
 http://localhost:5000
 
 ```
+
 
