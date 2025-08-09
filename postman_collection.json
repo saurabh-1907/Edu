@@ -1,0 +1,41 @@
+{
+  "info": {
+    "name": "School API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Add School",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Example School\",\n  \"address\": \"Example Road\",\n  \"latitude\": 28.7041,\n  \"longitude\": 77.1025\n}"
+        },
+        "url": {
+          "raw": "https://<RENDER-URL>/api/addSchool",
+          "protocol": "https",
+          "host": ["<RENDER-URL>"],
+          "path": ["api", "addSchool"]
+        }
+      }
+    },
+    {
+      "name": "List Schools",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "https://<RENDER-URL>/api/listSchools?latitude=28.7041&longitude=77.1025",
+          "protocol": "https",
+          "host": ["<RENDER-URL>"],
+          "path": ["api", "listSchools"],
+          "query": [
+            { "key": "latitude", "value": "28.7041" },
+            { "key": "longitude", "value": "77.1025" }
+          ]
+        }
+      }
+    }
+  ]
+}
