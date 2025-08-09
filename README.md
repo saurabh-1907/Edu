@@ -4,28 +4,38 @@ This project provides APIs to **add schools** and **list schools nearby a given 
 It is designed for easy integration into educational platforms or mapping applications.
 
 ---
-
+Please note that on the forst request it may take  sec to a minute because of free tier
 ## 🚀 Base URL
 ```bash 
 https://edu-m3yi.onrender.com/api 
 ```
-
-
-```bash 
-
----
-
 ## 📌 Endpoints
 
 ### 1️⃣ Add School
 **Method:** `POST`  
 **URL:** `/addSchool`  
 
-**Headers:**
-```bash
-Content-Type: application/json
-
+```bash 
+https://edu-m3yi.onrender.com/api/addSchool
 ```
+```bash 
+{
+  "name": "St. Xavier's High School",
+  "address": "123 Main Street",
+  "latitude": 28.7041,
+  "longitude": 77.1025
+}
+```
+### GET LIST
+**Method:** `GET`  
+**URL:** `/listSchools`  
+
+```bash
+https://edu-m3yi.onrender.com/api/listSchools?latitude=XX.XXXX&longitude=XX.XXXX
+```
+example :
+https://edu-m3yi.onrender.com/api/listSchools?latitude=28.7041&longitude=77.1025
+
 Request Body Example:
 ```bash
 {
@@ -134,3 +144,4 @@ Server will run on:
 http://localhost:5000
 
 ```
+
