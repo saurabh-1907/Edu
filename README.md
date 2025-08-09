@@ -4,7 +4,7 @@ This project provides APIs to **add schools** and **list schools nearby a given 
 It is designed for easy integration into educational platforms or mapping applications.
 
 ---
-Please note that on the forst request it may take  sec to a minute because of free tier
+Please note that on the first request it may take 50 sec to a minute because of free tier
 ## 🚀 Base URL
 ```bash 
 https://edu-m3yi.onrender.com/api 
@@ -144,5 +144,6 @@ Server will run on:
 http://localhost:5000
 
 ```
+
 
 
